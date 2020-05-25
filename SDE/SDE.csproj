@@ -867,11 +867,19 @@
   <ItemGroup>
     <Resource Include="Resources\splash.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ColorPicker.dll" />
+    <Content Include="Database.dll" />
+    <Content Include="ErrorManager.dll" />
+    <Content Include="GRF.dll" />
+    <Content Include="GrfToWpfBridge.dll" />
+    <Content Include="TokeiLibrary.dll" />
+    <Content Include="Utilities.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_UpdateAssemblyVersion="True" BuildVersion_UpdateFileVersion="True" BuildVersion_BuildVersioningStyle="None.None.MonthStamp.Increment" />
+      <UserProperties BuildVersion_BuildVersioningStyle="None.None.MonthStamp.Increment" BuildVersion_UpdateFileVersion="True" BuildVersion_UpdateAssemblyVersion="True" />
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
