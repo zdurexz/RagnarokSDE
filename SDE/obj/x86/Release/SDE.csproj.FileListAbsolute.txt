@@ -122,3 +122,4 @@ D:\rathena\RagnarokSDE\SDE\obj\x86\Release\SDE.csproj.CoreCompileInputs.cache
 D:\rathena\RagnarokSDE\SDE\obj\x86\Release\SDE.csproj.CopyComplete
 D:\rathena\RagnarokSDE\SDE\obj\x86\Release\SDE.exe
 D:\rathena\RagnarokSDE\SDE\obj\x86\Release\SDE.pdb
+D:\rathena\RagnarokSDE\SDE\obj\x86\Release\SDE.csprojAssemblyReference.cache

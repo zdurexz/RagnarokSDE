@@ -182,11 +182,12 @@ namespace SDE.Editor.Generic.Parsers {
 			}
 			if (SdeAppConfiguration.DbWriterItemInfoClassNum) {
 				builder.Append("\t\tcostume = ");
-				builder.AppendLine(_toAnsiEscaped(((tuple.GetValue<bool>(ClientItemAttributes.IsCostume)) ? "true," : "false,")));
-			}
-			if (SdeAppConfiguration.DbWriterItemInfoClassNum) {
-				builder.Append("\t\tEffectID = ");
-				builder.AppendLine(_toAnsiEscaped(((tuple.GetValue<bool>(ClientItemAttributes.IsCard)) ? "1186" : "0")));
+				builder.Append(_toAnsiEscaped(((tuple.GetValue<bool>(ClientItemAttributes.IsCostume)) ? "true" : "false")));
+				if (tuple.GetValue<bool>(ClientItemAttributes.IsCard)) {
+					builder.AppendLine(",");
+					builder.AppendLine("\t\tEffectID = 1186");
+				} else
+					builder.AppendLine("");
 			}
 
 			builder.AppendLine(end ? "\t}" : "\t},");
