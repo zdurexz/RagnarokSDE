@@ -465,7 +465,7 @@ namespace SDE.Editor.Generic.TabsMakerCore {
 				ClientItemAttributes.Illustration.Index, 1,
 				ClientItemAttributes.NumberOfSlots.Index, 1,
 				ClientItemAttributes.Affix.Index, 1,
-				-1, 1,
+				ClientItemAttributes.IsCostume.Index, 1,
 				ClientItemAttributes.Postfix.Index, 1,
 			}), generalProperties, list);
 

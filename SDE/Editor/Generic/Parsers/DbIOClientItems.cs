@@ -178,13 +178,26 @@ namespace SDE.Editor.Generic.Parsers {
 
 			if (SdeAppConfiguration.DbWriterItemInfoClassNum) {
 				builder.Append("\t\tClassNum = ");
-				builder.AppendLine(_toAnsiEscaped((String.IsNullOrEmpty(tuple.GetValue<string>(ClientItemAttributes.ClassNumber.Index)) ? "0" : tuple.GetValue<string>(ClientItemAttributes.ClassNumber.Index))));
+				builder.AppendLine(_toAnsiEscaped((String.IsNullOrEmpty(tuple.GetValue<string>(ClientItemAttributes.ClassNumber.Index)) ? "0," : tuple.GetValue<string>(ClientItemAttributes.ClassNumber.Index) + ",")));
+			}
+			if (SdeAppConfiguration.DbWriterItemInfoClassNum) {
+				builder.Append("\t\tcostume = ");
+				builder.AppendLine(_toAnsiEscaped(((tuple.GetValue<bool>(ClientItemAttributes.IsCostume)) ? "true," : "false,")));
+			}
+			if (SdeAppConfiguration.DbWriterItemInfoClassNum) {
+				builder.Append("\t\tEffectID = ");
+				builder.AppendLine(_toAnsiEscaped(((tuple.GetValue<bool>(ClientItemAttributes.IsCard)) ? "1186" : "0")));
 			}
 
 			builder.AppendLine(end ? "\t}" : "\t},");
 		}
 
-		private static string _toAnsiEscaped(string value) {
+        private static string GetValue<T>(DbAttribute isCard)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string _toAnsiEscaped(string value) {
 			return EncodingService.GetAnsiString(value).Escape(EscapeMode.KeepAsciiCode);
 		}
 
@@ -519,6 +532,9 @@ namespace SDE.Editor.Generic.Parsers {
 							break;
 						case "ClassNum":
 							table.SetRaw(itemIndex, ClientItemAttributes.ClassNumber, ((LuaValue)itemProperty.Value).Value);
+							break;
+						case "costume":
+							table.SetRaw(itemIndex, ClientItemAttributes.IsCostume, ((LuaValue)itemProperty.Value).Value);
 							break;
 						case "unidentifiedDescriptionName":
 							itemList = itemProperty.Value as LuaList;

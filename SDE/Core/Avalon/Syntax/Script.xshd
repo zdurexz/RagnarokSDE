@@ -653,6 +653,24 @@
       <Word>Job_Super_Baby_E</Word>
       <Word>Job_Kagerou</Word>
       <Word>Job_Oboro</Word>
+      <Word>Job_Rebellion<Word>
+      <Word>Job_Summoner<Word>
+      <Word>Job_Baby_Summoner<Word>
+      <Word>Job_Baby_Ninja<Word>
+      <Word>Job_Kagerou<Word>
+      <Word>Job_Oboro<Word>
+      <Word>Job_Baby_Taekwon<Word>
+      <Word>Job_Baby_STAR_GLADIATOR<Word>
+      <Word>Job_Baby_Soul_Linker<Word>
+      <Word>Job_Baby_Gunslinger<Word>
+      <Word>Job_Baby_Rebellion<Word>
+      <Word>Job_Baby_Star_Gladiator2<Word>
+      <Word>Job_Star_Emperor<Word>
+      <Word>Job_Soul_Reaper<Word>
+      <Word>Job_Baby_Star_Emperor<Word>
+      <Word>Job_Baby_Soul_Reaper<Word>
+      <Word>Job_Star_Emperor2<Word>
+      <Word>Job_Baby_Star_Emperor2<Word>	  
       <Word>EAJL_2_1</Word>
       <Word>EAJL_2_2</Word>
       <Word>EAJL_2</Word>
@@ -1056,9 +1074,24 @@
       <Word>bFixedCastrate</Word>
       <Word>bVariableCastrate</Word>
       <Word>bSkillUseSP</Word>
-      <Word>bMagicAtkEle 2056</Word>
+      <Word>bMagicAtkEle</Word>
       <Word>bFixedCast</Word>
       <Word>bVariableCast</Word>
+	  <Word>bShortAtkRate<Word>
+      <Word>bShortAtkRate<Word>
+      <Word>bLongHPGainValue<Word>
+      <Word>bLongSPGainValue<Word>
+      <Word>bAllHPGainValue<Word>
+      <Word>bAllSPGainValue<Word>
+      <Word>bPhysicalDefReturn<Word>
+      <Word>bMagicalDefReturn<Word>
+      <Word>bNoWalkDelay<Word>
+      <Word>bNoMadoFuel<Word>
+      <Word>bAddClass<Word>
+      <Word>bMagicAddClass<Word>
+      <Word>bSubClass<Word>
+      <Word>bIgnoreDefClass<Word>
+      <Word>bIgnoreMdefClassRate<Word>
       <Word>EQI_HEAD_TOP</Word>
       <Word>EQI_ARMOR</Word>
       <Word>EQI_HAND_L</Word>
@@ -1108,6 +1141,7 @@
       <Word>Ele_Dark</Word>
       <Word>Ele_Ghost</Word>
       <Word>Ele_Undead</Word>
+      <Word>Ele_All</Word>
       <Word>RC_Formless</Word>
       <Word>RC_Undead</Word>
       <Word>RC_Brute</Word>
@@ -1121,6 +1155,8 @@
       <Word>RC_Boss</Word>
       <Word>RC_NonBoss</Word>
       <Word>RC_NonDemiHuman</Word>
+      <Word>RC_Player</Word>
+      <Word>RC_All</Word>
       <Word>RC2_None</Word>
       <Word>RC2_Goblin</Word>
       <Word>RC2_Kobold</Word>
@@ -1131,6 +1167,11 @@
       <Word>Size_Small</Word>
       <Word>Size_Medium</Word>
       <Word>Size_Large</Word>
+      <Word>Size_All</Word>
+      <Word>Class_Normal</Word>
+      <Word>Class_Boss</Word>
+      <Word>Class_Guardian</Word>
+      <Word>Class_All</Word>
       <Word>BF_WEAPON</Word>
       <Word>BF_MAGIC</Word>
       <Word>BF_MISC</Word>

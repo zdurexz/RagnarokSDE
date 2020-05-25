@@ -59,6 +59,7 @@ namespace SDE.Editor.Generic.Lists {
 		public static readonly DbAttribute Illustration = new ClientItemAttributes(new DbAttribute("Illustration", typeof(IllustrationProperty<int>), "")) { DataConverter = ValueConverters.GetSetUniversalString };
 		public static readonly DbAttribute IsCard = new ClientItemAttributes(new DbAttribute("IsCard", typeof(bool), false, "Is card"));
 		public static readonly DbAttribute Postfix = new ClientItemAttributes(new DbAttribute("Postfix", typeof(bool), false, "Is postfix"));
+		public static readonly DbAttribute IsCostume = new ClientItemAttributes(new DbAttribute("IsCostume", typeof(bool), false, "Is Costume"));
 		public static readonly DbAttribute ClassNumber = new ClientItemAttributes(new DbAttribute("ClassNumber", typeof(CustomHeadgearSpriteProperty), "", "View ID"));
 		public static readonly DbAttribute Parameters = new ClientItemAttributes(new DbAttribute("Parameters", typeof(ParameterHolder), null)) { DataConverter = ValueConverters.GetSetParameters, Visibility = VisibleState.Hidden };
 
