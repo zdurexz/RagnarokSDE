@@ -1155,6 +1155,8 @@
       <Word>RC_NonBoss</Word>
       <Word>RC_NonDemiHuman</Word>
       <Word>RC_Player</Word>
+      <Word>RC_Player_Humans</Word>
+      <Word>RC_Player_Doram</Word>
       <Word>RC_All</Word>
       <Word>RC2_None</Word>
       <Word>RC2_Goblin</Word>

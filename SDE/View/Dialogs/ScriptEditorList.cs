@@ -1036,6 +1036,8 @@ namespace SDE.View.Dialogs {
 			"RC_Angel",
 			"RC_Dragon",
 			"RC_Player",
+			"RC_Player_Human",
+			"RC_Player_Doram",
 			"RC_Boss",
 			"RC_NonBoss",
 			"RC_NonDemiHuman",
