@@ -7,14 +7,14 @@
              xmlns:view="clr-namespace:SDE.View"
              xmlns:controls="clr-namespace:SDE.View.Controls">
     <Border Height="32" BorderBrush="#BEBEBE" BorderThickness="1" VerticalAlignment="Top" HorizontalAlignment="Right">
-        <Grid Background="White">
+        <Grid Background="#24292e">
             <DockPanel>
                 <Styles:FancyButton Margin="3 0 0 0" x:Name="_buttonFancyMode" Height="24" Width="24" ImagePath="replace.png" Click="_buttonFancyMode_Click" IsButtonEnabled="True">
                     <Styles:FancyButton.ToolTip>
                         Toggle to switch between replace and find modes.
                     </Styles:FancyButton.ToolTip>
                 </Styles:FancyButton>
-                <Border  Margin="3 0 3 0" Name="_border1" BorderBrush="#8490A1" VerticalAlignment="Center" BorderThickness="1" Width="160">
+                <Border  Margin="3 0 3 0" Name="_border1" BorderBrush="#333337" VerticalAlignment="Center" BorderThickness="1" Width="160">
                     <Grid>
                         <controls:LeftComboBox Height="0" x:Name="_cbSubMenu" VerticalAlignment="Bottom" >
                             <Border Margin="-4, -2, -4, -2" Width="170" Focusable="False" BorderThickness="1" BorderBrush="#9AA6B6" FocusVisualStyle="{x:Null}">

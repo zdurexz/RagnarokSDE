@@ -6,14 +6,14 @@
                  xmlns:TokeiLibrary="clr-namespace:TokeiLibrary;assembly=TokeiLibrary"
                  xmlns:controls="clr-namespace:SDE.View.Controls"
                  MaxWidth="470" MinWidth="470" MinHeight="375" MaxHeight="375">
-    <Grid Background="White">
+    <Grid Background="#24292e">
         <Grid.RowDefinitions>
             <RowDefinition />
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
-        <Border Background="#F7F9FD">
+        <Border Background="#24292e">
             <Grid>
-                <TabControl Style="{DynamicResource ResourceKey=TabControlStyled}" Background="White">
+                <TabControl Style="{DynamicResource ResourceKey=TabControlStyled}" Background="#24292e">
                     <TabItem Header="Editor colors" Style="{DynamicResource ResourceKey=TabItemStyled}">
                         <StackPanel>
                             <StackPanel>

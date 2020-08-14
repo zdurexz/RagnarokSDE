@@ -5,14 +5,14 @@
                  xmlns:ListView="clr-namespace:TokeiLibrary.WPF.Styles.ListView;assembly=TokeiLibrary"
                  xmlns:TokeiLibrary="clr-namespace:TokeiLibrary;assembly=TokeiLibrary"
                  xmlns:Application="clr-namespace:GrfToWpfBridge.Application;assembly=GrfToWpfBridge" MaxWidth="470" MinWidth="470" MinHeight="475" MaxHeight="475">
-    <Grid Background="White">
+    <Grid Background="#24292e">
         <Grid.RowDefinitions>
             <RowDefinition />
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
-        <Border Background="#F7F9FD">
+        <Border Background="#24292e">
             <Grid>
-                <TabControl Style="{DynamicResource ResourceKey=TabControlStyled}" Background="White" Focusable="True" FocusVisualStyle="{x:Null}">
+                <TabControl Style="{DynamicResource ResourceKey=TabControlStyled}" Background="#24292e" Focusable="True" FocusVisualStyle="{x:Null}">
                     <TabItem Header="General" Style="{DynamicResource ResourceKey=TabItemStyled}">
                         <StackPanel Focusable="True" FocusVisualStyle="{x:Null}">
                             <StackPanel>

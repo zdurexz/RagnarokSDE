@@ -110,7 +110,7 @@
         </ControlTemplate.Resources>
         <Grid x:Name="Grid">
             <Border x:Name="BackgroundNorm" BorderThickness="1" CornerRadius="0 3 3 0" Background="{TemplateBinding Background}" BorderBrush="{DynamicResource ButtonBorderBrush}"/>
-            <Border x:Name="BackgroundNorm_highlight" Margin="1" BorderBrush="White" BorderThickness="1" CornerRadius="0 3 3 0" Opacity="0.65" />
+            <Border x:Name="BackgroundNorm_highlight" Margin="1" BorderBrush="#24292e" BorderThickness="1" CornerRadius="0 3 3 0" Opacity="0.65" />
             <Border x:Name="BackgroundOver" BorderThickness="1" CornerRadius="0 3 3 0" Opacity="0" Background="{DynamicResource MouseOverBrush}" BorderBrush="{DynamicResource MouseOverBorderBrush}"/>
             <Border x:Name="BackgroundOver_Highlight" Margin="1" BorderThickness="1" CornerRadius="0 3 3 0" Opacity="0" BorderBrush="{DynamicResource MouseOverHighlightBrush}"/>
             <Border x:Name="BackgroundOver2" BorderThickness="1" CornerRadius="0 3 3 0" Opacity="0" Background="{DynamicResource MouseOverBrush}" BorderBrush="{DynamicResource MouseOverBorderBrush}"/>
@@ -177,7 +177,7 @@
     <ControlTemplate x:Key="ButtonTemplateXP" TargetType="{x:Type Button}">
         <Grid x:Name="Grid">
             <Border x:Name="BackgroundNorm" BorderThickness="1" CornerRadius="0 3 3 0" Background="{TemplateBinding Background}" BorderBrush="{DynamicResource ButtonBorderBrush}"/>
-            <Border x:Name="BackgroundNorm_highlight" Margin="1" BorderBrush="White" BorderThickness="1" CornerRadius="0 3 3 0" Opacity="0.65" />
+            <Border x:Name="BackgroundNorm_highlight" Margin="1" BorderBrush="#24292e" BorderThickness="1" CornerRadius="0 3 3 0" Opacity="0.65" />
 
             <ContentPresenter x:Name="contentPresenter"  VerticalAlignment="{TemplateBinding VerticalContentAlignment}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" Content="{TemplateBinding Content}"  />
         </Grid>
@@ -392,13 +392,13 @@
         </Setter>
     </Style>
 
-    <SolidColorBrush x:Key="TabControlBackground" Color="#F7F9FD"/>
-    <SolidColorBrush x:Key="TabControlBorder" Color="#CED6E3"/>
-    <SolidColorBrush x:Key="TabItemBackground" Color="White"/>
-    <SolidColorBrush x:Key="TabItemMouseOverBackground" Color="#F3F5F8"/>
-    <SolidColorBrush x:Key="TabItemMouseOverBorder" Color="#CED6E3"/>
-    <SolidColorBrush x:Key="TabItemSelectedBackground" Color="#E9ECF2"/>
-    <SolidColorBrush x:Key="TabItemSelectedBorder" Color="#CED6E3"/>
+    <SolidColorBrush x:Key="TabControlBackground" Color="#24292e"/>
+    <SolidColorBrush x:Key="TabControlBorder" Color="#141414"/>
+    <SolidColorBrush x:Key="TabItemBackground" Color="#24292e"/>
+    <SolidColorBrush x:Key="TabItemMouseOverBackground" Color="#1d2125"/>
+    <SolidColorBrush x:Key="TabItemMouseOverBorder" Color="#141414"/>
+    <SolidColorBrush x:Key="TabItemSelectedBackground" Color="#1d2125"/>
+    <SolidColorBrush x:Key="TabItemSelectedBorder" Color="#141414"/>
     <SolidColorBrush x:Key="TabItemTextSelectedForeground" Color="Black"/>
     <SolidColorBrush x:Key="TabItemTextNormalForeground" Color="#626262"/>
     <SolidColorBrush x:Key="SeperatorBrush" Color="#E3E9F1"/>
@@ -409,8 +409,8 @@
     <SolidColorBrush x:Key="FancyButtonDisabledBackgroundBrush" Color="#81F3F3F3"/>
     <SolidColorBrush x:Key="FancyButtonDisabledBorderBrush" Color="#81F3F3F3"/>
 
-    <SolidColorBrush x:Key="FancyButtonMouseOverBackgroundBrush" Color="#F3F6FB"/>
-    <SolidColorBrush x:Key="FancyButtonMouseOverBorderBrush" Color="#DDE4EE"/>
+    <SolidColorBrush x:Key="FancyButtonMouseOverBackgroundBrush" Color="#1d2125"/>
+    <SolidColorBrush x:Key="FancyButtonMouseOverBorderBrush" Color="#1d2125"/>
 
     <SolidColorBrush x:Key="FancyButtonPressedBackgroundBrush" Color="#E3EAF6"/>
     <SolidColorBrush x:Key="FancyButtonPressedBorderBrush" Color="#C9D5E5"/>

@@ -7,7 +7,7 @@
             <ColumnDefinition />
             <ColumnDefinition Width="auto" />
         </Grid.ColumnDefinitions>
-        <Border Name="_border" CornerRadius="2" Margin="3" BorderBrush="Black" BorderThickness="1" Background="White">
+        <Border Name="_border" CornerRadius="2" Margin="3" BorderBrush="#141414" BorderThickness="1" Background="#24292e">
             <Grid Margin="1" Name="_grid">
                 <Rectangle MouseLeftButtonUp="_previewPanelBg_MouseLeftButtonUp" Name="_previewPanelBg" Fill="{Binding ElementName=_scrollViewer, Path=Background}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
             </Grid>

@@ -11,7 +11,7 @@
          xmlns:controls="clr-namespace:SDE.View.Controls"
          mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid Background="White">
+    <Grid Background="#24292e">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="250" />
             <ColumnDefinition Width="auto" />

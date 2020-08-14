@@ -118,9 +118,9 @@
             <controls:ToggleMemoryButton x:Name="_tnbRedo" PrimaryButtonImagePath="forward.png" DisplayFormat="Go forward {0} element" />
         </DockPanel>
         <Styles:TkProgressBar Name="_progressBar" Width="300" HorizontalAlignment="Right" Margin="0 0 3 0"  />
-        <Border Background="#F7F9FD" Grid.Row="1">
+        <Border Background="#24292e" Grid.Row="1">
             <Grid>
-                <TabControl Name="_mainTabControl" Background="White" SelectionChanged="_mainTabControl_SelectionChanged" Style="{DynamicResource TabControlStyled}">
+                <TabControl Name="_mainTabControl" Background="#24292e" SelectionChanged="_mainTabControl_SelectionChanged" Style="{DynamicResource TabControlStyled}">
                     <TabItem Style="{DynamicResource TabItemStyledLess}">
                         <TabItem.Header>
                             <controls:DisplayLabel FontWeight="Bold" DisplayText="Settings" />
