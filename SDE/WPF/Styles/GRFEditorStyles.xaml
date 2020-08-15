@@ -392,15 +392,15 @@
         </Setter>
     </Style>
 
-    <SolidColorBrush x:Key="TabControlBackground" Color="#24292e"/>
-    <SolidColorBrush x:Key="TabControlBorder" Color="#141414"/>
-    <SolidColorBrush x:Key="TabItemBackground" Color="#24292e"/>
-    <SolidColorBrush x:Key="TabItemMouseOverBackground" Color="#1d2125"/>
-    <SolidColorBrush x:Key="TabItemMouseOverBorder" Color="#141414"/>
-    <SolidColorBrush x:Key="TabItemSelectedBackground" Color="#1d2125"/>
-    <SolidColorBrush x:Key="TabItemSelectedBorder" Color="#141414"/>
-    <SolidColorBrush x:Key="TabItemTextSelectedForeground" Color="Black"/>
-    <SolidColorBrush x:Key="TabItemTextNormalForeground" Color="#626262"/>
+    <SolidColorBrush x:Key="TabControlBackground" Color="transparent"/>
+    <SolidColorBrush x:Key="TabControlBorder" Color="#232427"/>
+    <SolidColorBrush x:Key="TabItemBackground" Color="#36393f"/>
+    <SolidColorBrush x:Key="TabItemMouseOverBackground" Color="#34373c"/>
+    <SolidColorBrush x:Key="TabItemMouseOverBorder" Color="#232427"/>
+    <SolidColorBrush x:Key="TabItemSelectedBackground" Color="#393c43"/>
+    <SolidColorBrush x:Key="TabItemSelectedBorder" Color="#232427"/>
+    <SolidColorBrush x:Key="TabItemTextSelectedForeground" Color="White"/>
+    <SolidColorBrush x:Key="TabItemTextNormalForeground" Color="#888888"/>
     <SolidColorBrush x:Key="SeperatorBrush" Color="#E3E9F1"/>
 
 
@@ -409,7 +409,7 @@
     <SolidColorBrush x:Key="FancyButtonDisabledBackgroundBrush" Color="#81F3F3F3"/>
     <SolidColorBrush x:Key="FancyButtonDisabledBorderBrush" Color="#81F3F3F3"/>
 
-    <SolidColorBrush x:Key="FancyButtonMouseOverBackgroundBrush" Color="#1d2125"/>
+    <SolidColorBrush x:Key="FancyButtonMouseOverBackgroundBrush" Color="#393c43"/>
     <SolidColorBrush x:Key="FancyButtonMouseOverBorderBrush" Color="#1d2125"/>
 
     <SolidColorBrush x:Key="FancyButtonPressedBackgroundBrush" Color="#E3EAF6"/>
