@@ -144,24 +144,24 @@
                                         <RowDefinition Height="auto" />
                                         <RowDefinition Height="auto" />
                                     </Grid.RowDefinitions>
-                                    <Label Content="Client encoding" Padding="0" Margin="3" VerticalAlignment="Center">
+                                    <Label Foreground="White" Content="Client encoding" Padding="0" Margin="3" VerticalAlignment="Center">
                                         <Label.ToolTip>
-                                            <TextBlock>
+                                            <TextBlock Foreground="White">
                                         Encoding used for the client databases and lua files.
                                             </TextBlock>
                                         </Label.ToolTip>
                                     </Label>
                                     <Application:EncodingPicker Grid.Column="1" Margin="3" Name="_comboBoxEncoding" IsReadOnly="True" Width="120" HorizontalAlignment="Left" />
-                                    <Label Content="Server encoding" Padding="0" Grid.Row="1" Margin="3" VerticalAlignment="Center">
+                                    <Label Foreground="White" Content="Server encoding" Padding="0" Grid.Row="1" Margin="3" VerticalAlignment="Center">
                                         <Label.ToolTip>
-                                            <TextBlock>
+                                            <TextBlock Foreground="White">
                                         Encoding used to read and write the server database files.
                                             </TextBlock>
                                         </Label.ToolTip>
                                     </Label>
                                     <Application:EncodingPicker Grid.Column="1" Grid.Row="1" Margin="3" Name="_comboBoxEncodingServer" IsReadOnly="True" Width="120" HorizontalAlignment="Left" />
                                 </Grid>
-                            <TextBlock Margin="3" Text="Resource files or folders (drop a GRF or a data folder) : " />
+                            <TextBlock Foreground="White" Margin="3" Text="Resource files or folders (drop a GRF or a data folder) : " />
                             </StackPanel>
                             <MultiGrf:MetaGrfResourcesViewer Grid.Row="1" x:Name="_metaGrfViewer" Height="100" />
                             <Grid Name="_gridTextFilesSettings" Grid.Row="2" >
@@ -178,9 +178,9 @@
                                     <RowDefinition Height="auto" />
                                     <RowDefinition />
                                 </Grid.RowDefinitions>
-                                <CheckBox Margin="3" Name="_cbClientDbSync" Content="Synchronize with client database files" HorizontalAlignment="Left" />
+                                <CheckBox Foreground="White" Margin="3" Name="_cbClientDbSync" Content="Synchronize with client database files" HorizontalAlignment="Left" />
                                 <DockPanel Grid.Row="1">
-                                    <CheckBox Margin="3 3 15 3" Name="_cbUseLuaFiles" Content="Use lua files" HorizontalAlignment="Left" />
+                                    <CheckBox Foreground="White" Margin="3 3 15 3" Name="_cbUseLuaFiles" Content="Use lua files" HorizontalAlignment="Left" />
                                     <Button HorizontalAlignment="Left" Name="_buttonLuaSettings" Click="_menuItemEditLuaSettings_Click">
                                         <Grid>
                                             <Grid.ColumnDefinitions>
@@ -204,8 +204,8 @@
                                         <ColumnDefinition Width="4" />
                                         <ColumnDefinition />
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock Grid.Row="1" Text="Text files" Margin="3" />
-                                    <TextBlock Grid.Row="1" Grid.Column="3" Text="Lua files" Margin="3" />
+                                    <TextBlock Foreground="White" Grid.Row="1" Text="Text files" Margin="3" />
+                                    <TextBlock Foreground="White" Grid.Row="1" Grid.Column="3" Text="Lua files" Margin="3" />
                                     <ListView Name="_listItemClientTxtFiles" Grid.Row="2" ScrollViewer.HorizontalScrollBarVisibility="Hidden" Grid.Column="0" Margin="3">
                                         <ListView.ItemContainerStyle>
                                             <Style TargetType="ListViewItem">

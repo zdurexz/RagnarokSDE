@@ -25,7 +25,7 @@
                         <RowDefinition />
                     </Grid.RowDefinitions>
                     <DockPanel LastChildFill="True">
-                        <Label Content="View encoding" />
+                        <Label Foreground="White" Content="View encoding" />
                         <Application:EncodingPicker Margin="3" Name="_comboBoxEncoding" IsReadOnly="True" Width="120" HorizontalAlignment="Right" />
                     </DockPanel>
                     <DockPanel Grid.Row="1">

@@ -14,7 +14,7 @@ namespace SDE.View.Controls {
 		private bool _isLoaded;
 
 		private Brush _stateBrush = Brushes.Black;
-		private Brush _stateInactiveBrush = new SolidColorBrush(Color.FromArgb(255, 98, 98, 98));
+		private Brush _stateInactiveBrush = new SolidColorBrush(Color.FromArgb(255, 215, 215, 215));
 		private string _toString;
 
 		public DisplayLabel() {
@@ -76,7 +76,7 @@ namespace SDE.View.Controls {
 					this.Dispatch(delegate {
 						if (v) {
 							_stateBrush = Brushes.Black;
-							_stateInactiveBrush = new SolidColorBrush(Color.FromArgb(255, 98, 98, 98));
+							_stateInactiveBrush = new SolidColorBrush(Color.FromArgb(255, 215, 215, 215));
 						}
 						else {
 							_stateBrush = Brushes.Red;
@@ -104,7 +104,7 @@ namespace SDE.View.Controls {
 
 		public void ResetEnabled() {
 			_stateBrush = Brushes.Black;
-			_stateInactiveBrush = new SolidColorBrush(Color.FromArgb(255, 98, 98, 98));
+			_stateInactiveBrush = new SolidColorBrush(Color.FromArgb(255, 215, 215, 215));
 
 			Grid presenter = WpfUtilities.FindParentControl<Grid>(this);
 
